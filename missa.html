@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Local CSS-->
+   <link rel="stylesheet" href="style.css">
+   <!-- Compiled and minified CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <!-- Font Awesome-->
+   <script src="https://kit.fontawesome.com/a002a763e4.js" crossorigin="anonymous"></script>
+   <!-- Material Icons-->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">   
+
+
+   <title>Miss A</title>
+</head>
+<body>
+
+   <!-- Navbar -->
+    <nav class="pink lighten-4">
+      <di class="container">
+         <a href="index.html" data-target="slide-out" class="brand-logo center">
+            <img src="images/logo2.png" height="60px">
+         </a>
+         <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right">
+            <i class="material-icons black-text">menu</i>
+         </a>
+         <ul class="right">
+            <li>
+               <a href="#sueweeties-modal" class="btn pink accent-2 black-text waves-effect waves-light z-depth-2 modal-trigger">Sueweeties</a>
+            </li>
+         </ul>
+      </div>
+    </nav>
+   
+   <!-- Sidenav Structure-->
+      <div class="container">
+         <ul id="slide-out" class="sidenav">
+            <h4 class="black-text center">Bae Suzy</h4>
+            <div class="divider"></div>
+            <li>
+               <nav class="white lighten-2">
+                  <div class="nav-wrapper">
+                    <form>
+                     <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search">
+                           <i class="material-icons black-text">search</i>
+                        </label>
+                        <i class="material-icons">close</i>
+                     </div>
+                    </form>
+                  </div>
+               </nav>
+            </li>
+            <li>
+               <a href="index.html">Home
+                  <i class="fa-solid fa-heart black-text small"></i>
+               </a>
+            </li>
+            <li>
+               <a href="profile.html">Profile
+                  <i class="fa-solid fa-user black-text small"></i>
+               </a>
+            </li>
+            <li class="active">
+               <a class="dropdown-trigger" href="#!" data-target="dropdown3">Discography
+                  <i class="fa-solid fa-icons black-text small"></i>
+                  <i class="material-icons right">arrow_drop_down</i>
+               </a>
+            </li>
+            <li>
+               <a class="dropdown-trigger" href="#!" data-target="dropdown4">Filmography
+                  <i class="fa-solid fa-video black-text small"></i>
+                  <i class="material-icons right">arrow_drop_down</i>
+               </a>
+            </li>
+         <!--Sidenav Footer-->
+            <footer class="sidenav-footer">
+               <div class="row">
+                  <div class="row">
+                     <div class="col s3">
+                        <a href="https://twitter.com/Suzy?t=ECW7httXelm5fNT6xpyDKQ&s=09">
+                           <i class="fa-brands fa-twitter small"></i>
+                        </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="pink-text text-lighten-2" href="https://instagram.com/skuukzky?igshid=YmMyMTA2M2Y=">
+                           <i class="fa-brands fa-instagram small"></i>
+                       </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="red-text text-lighten-1" href="https://www.youtube.com/channel/UC9MujNQL4vQwX9kMpmQPIKw">
+                           <i class="fa-brands fa-youtube small"></i>
+                       </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="cyan-text text-darken-3" href="https://www.instagram.com/management_soop/?igshid=YmMyMTA2M2Y%3D">
+                           <i class="fa-solid fa-id-card-clip small"></i>
+                       </a>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </ul>
+      </div>
+
+
+
+   <!-- Dropdown Structure -->
+
+   <ul id="dropdown1" class="dropdown-content">
+      <li class="active">
+         <a href="missa.html">Miss A</a>
+      </li>
+      <li>
+         <a href="solo.html">Solo</a>
+      </li>
+   </ul>
+   <ul id="dropdown2" class="dropdown-content">
+      <li>
+         <a href="movie.html">Movie</a>
+      </li>
+      <li>
+         <a href="drama.html">Drama</a>
+      </li>
+   </ul>
+   <ul id="dropdown3" class="dropdown-content">
+      <li class="active">
+         <a href="missa.html">Miss A</a>
+      </li>
+      <li>
+         <a href="solo.html">Solo</a>
+      </li>
+   </ul>
+   <ul id="dropdown4" class="dropdown-content">
+      <li>
+         <a href="movie.html">Movie</a>
+      </li>
+      <li>
+         <a href="drama.html">Drama</a>
+      </li>
+   </ul>
+
+    <!-- header: Miss A-->
+      <br>
+      <header class="missaheader">
+        <div class="container">
+           <div class="row">
+              <div class="col s12">
+                  <h1 class="center pink-text">MISS A
+                     <span class="black-text">DISCOGRAPHY</span>
+                  </h1>
+              </div>
+           </div>
+        </div>
+      </header>
+
+   <!--Section: Section Miss A Info-->
+   <br>
+    <Section class="section section-missainfo">
+      <div class="container">
+        <div class="row">
+         <div class="col-9 center">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/missAprofile.jpeg">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">MISS A
+                  <i class="material-icons right">more_vert</i>
+               </span>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title pink-text text-darken-4">MISS A<i class="material-icons right">close</i></span>
+               <p>Miss A (stylized as "MISS A" or "miss A", Hangul: 미쓰에이) was a South Korean girl group formed by JYP Entertainment. The group debuted in July 2010 with the single "Bad Girl Good Girl" as a quartet consisting of Fei, Jia, Min, and Suzy. Their debut song reached number one on the Gaon Digital Chart, which made them the first act ever to have their debut song reach the top of the chart, the song also became the best-performing single of 2010 on the chart.</p>
+             </div>
+           </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+         <div class="col s12 m3">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA1.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">Bad but Good<p>(07/01/2010)</p>
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">Bad Girl Good Girl</p>
+               <p class="flow-text ">Meet Again</p>
+               <p class="flow-text pink-text accent-2">Love Again</p>
+               <p class="flow-text">Break It</p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col s12 m3">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA2.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">Step Up<p>(09/27/2010)</p>
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">Step up</p>
+               <p class="flow ">Breathe</p>
+               <p class="flow-text pink-text accent-2">Are you dazed</p>
+               <p class="flow-text">Play that Music</p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col s12 m3">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA3.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">A Class<p>(07/18/2011)</p>
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">One to Ten</p>
+               <p class="flow-text ">Good-bye Baby</p>
+               <p class="flow-text pink-text accent-2">Help Me</p>
+               <p class="flow-text">Break It</p>
+               <p class="flow-text">Mr. Jonny</p>
+               <p class="flow-text">Play That Music DJ</p>
+               <p class="flow-text">Step Up</p>
+               <p class="flow-text">Breathe</p>
+               <p class="flow-text">Blanky</p>
+               <p class="flow-text">Love Again</p>
+               <p class="flow-text">Love Alone</p>
+               <p class="flow-text">Bad Girl Good Girl</p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col s12 m3">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA4.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">Touch<p>(02/20/2012)</p>
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">Touch</p>
+               <p class="flow-text ">Lips</p>
+               <p class="flow-text pink-text accent-2">Rock N Rule</p>
+               <p class="flow-text">No Mercy</p>
+               <p class="flow-text">Over U</p>
+             </div>
+           </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+         <div class="col s12 m4">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA5.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">Independent Women<p>(10/15/2012)</p>
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">I Don't Need a Man</p>
+               <p class="flow-text ">Ma Style</p>
+               <p class="flow-text pink-text accent-2">If i were a Boy</p>
+               <p class="flow-text">Madness</p>
+               <p class="flow-text">Time's Up</p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col s12 m4">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA6.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">Hush<p>(11/06/2013)</p>
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">Come On Over</p>
+               <p class="flow-text ">Hush</p>
+               <p class="flow-text pink-text accent-2">Love is U</p>
+               <p class="flow-text">Spolight</p>
+               <p class="flow-text">Hide & Sick</p>
+               <p class="flow-text">Im Good</p>
+               <p class="flow-text">Like U</p>
+               <p class="flow-text">Touch</p>
+               <p class="flow-text">Over U</p>
+               <p class="flow-text">Time's Up</p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col s12 m4">
+           <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+               <img class="activator" src="images/MA7.jpeg" height="200px" width="100px">
+            </div>
+            <div class="card-content">
+               <span class="card-title activator pink-text">Colors<p>(03/30/2015)</p>          
+                  <i class="material-icons right">more_vert</i>
+             </div>
+             <div class="card-reveal">
+               <span class="card-title">Songs<i class="material-icons right">close</i></span>
+               <p class="flow-text pink-text accent-2">One Step</p>
+               <p class="flow-text ">Only You</p>
+               <p class="flow-text pink-text accent-2">Love Song</p>
+               <p class="flow-text">Melting</p>
+               <p class="flow-text">I Caught Ya</p>
+               <p class="flow-text">Stuck</p>
+             </div>
+         </div>
+        </div>
+      </div>
+   </Section>
+
+  
+   <!--Section: Miss A Video-->
+   <section class="section section-missavideo">
+      <div class="container">
+         <div class="row">
+            <div class="col s12">
+               <iframe width="853" height="480" src="https://www.youtube.com/embed/dp0F18FFCTE" title="miss A “Hush” M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+         </div>
+      </div>
+   </section>
+              
+   <!--Footer-->
+   <footer class="section pink white-text center">
+      <p>© 2022 Copyright Baezyph</p> 
+   </footer>
+
+   <!-- Jquery CDN-->
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <!-- Compiled and minified Javascript-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+   <script>
+   $(document).ready(function(){
+      // Init Dropdown Menu
+    $(".dropdown-trigger").dropdown();
+     // Init Sidenav
+     $('.sidenav').sidenav({
+      edge: 'right'
+    });
+      // Init Carousel
+    $('.carousel').carousel();
+      // Init Carousel Slider
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+    });
+      // Init Modal
+    $('.modal').modal();
+    });
+   </script>
+
+</body>
+</html>

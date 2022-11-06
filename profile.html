@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Local CSS-->
+   <link rel="stylesheet" href="style.css">
+   <!-- Compiled and minified CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <!-- Font Awesome-->
+   <script src="https://kit.fontawesome.com/a002a763e4.js" crossorigin="anonymous"></script>
+   <!-- Material Icons-->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">   
+
+
+   <title>Profile</title>
+</head>
+<body>
+
+   <!-- Navbar -->
+       <nav class="pink lighten-4">
+         <di class="container">
+            <a href="index.html" data-target="slide-out" class="brand-logo center">
+               <img src="images/logo2.png" height="60px">
+            </a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right">
+               <i class="material-icons black-text">menu</i>
+            </a>
+            <ul class="right">
+               <li>
+                  <a href="#sueweeties-modal" class="btn pink accent-2 black-text waves-effect waves-light z-depth-2 modal-trigger">Sueweeties</a>
+               </li>
+            </ul>
+         </div>
+       </nav>
+   
+   <!-- Sidenav Structure-->
+      <div class="container">
+         <ul id="slide-out" class="sidenav">
+            <h4 class="black-text center">Bae Suzy</h4>
+            <div class="divider"></div>
+            <li>
+               <nav class="white lighten-2">
+                  <div class="nav-wrapper">
+                    <form>
+                     <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search">
+                           <i class="material-icons black-text">search</i>
+                        </label>
+                        <i class="material-icons">close</i>
+                     </div>
+                    </form>
+                  </div>
+               </nav>
+            </li>
+            <li>
+               <a href="index.html">Home
+                  <i class="fa-solid fa-heart black-text small"></i>
+               </a>
+            </li>
+            <li class="active">
+               <a href="profile.html">Profile
+                  <i class="fa-solid fa-user black-text small"></i>
+               </a>
+            </li>
+            <li>
+               <a class="dropdown-trigger" href="#!" data-target="dropdown3">Discography
+                  <i class="fa-solid fa-icons black-text small"></i>
+                  <i class="material-icons right">arrow_drop_down</i>
+               </a>
+            </li>
+            <li>
+               <a class="dropdown-trigger" href="#!" data-target="dropdown4">Filmography
+                  <i class="fa-solid fa-video black-text small"></i>
+                  <i class="material-icons right">arrow_drop_down</i>
+               </a>
+            </li>
+         <!--Sidenav Footer-->
+            <footer class="sidenav-footer">
+               <div class="row">
+                  <div class="row">
+                     <div class="col s3">
+                        <a href="https://twitter.com/Suzy?t=ECW7httXelm5fNT6xpyDKQ&s=09">
+                           <i class="fa-brands fa-twitter small"></i>
+                        </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="pink-text text-lighten-2" href="https://instagram.com/skuukzky?igshid=YmMyMTA2M2Y=">
+                           <i class="fa-brands fa-instagram small"></i>
+                       </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="red-text text-lighten-1" href="https://www.youtube.com/channel/UC9MujNQL4vQwX9kMpmQPIKw">
+                           <i class="fa-brands fa-youtube small"></i>
+                       </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="cyan-text text-darken-3" href="https://www.instagram.com/management_soop/?igshid=YmMyMTA2M2Y%3D">
+                           <i class="fa-solid fa-id-card-clip small"></i>
+                       </a>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </ul>
+      </div>
+
+
+
+   <!-- Dropdown Structure -->
+
+   <ul id="dropdown1" class="dropdown-content">
+      <li>
+         <a href="missa.html">Miss A</a>
+      </li>
+      <li>
+         <a href="solo.html">Solo</a>
+      </li>
+   </ul>
+   <ul id="dropdown2" class="dropdown-content">
+      <li>
+         <a href="movie.html">Movie</a>
+      </li>
+      <li>
+         <a href="drama.html">Drama</a>
+      </li>
+   </ul>
+   <ul id="dropdown3" class="dropdown-content">
+      <li>
+         <a href="missa.html">Miss A</a>
+      </li>
+      <li>
+         <a href="solo.html">Solo</a>
+      </li>
+   </ul>
+   <ul id="dropdown4" class="dropdown-content">
+      <li>
+         <a href="movie.html">Movie</a>
+      </li>
+      <li>
+         <a href="drama.html">Drama</a>
+      </li>
+   </ul>
+
+    <!-- Section: Profile-->
+   <br><br><br>
+    <Section class="section section-profile">
+      <div class="container">
+       <div class="row">
+         <div class="col s12 m6">
+            <img src="images/profile1.jpg" alt="" height="300px" width="300px">
+         </div>
+         <div class="col s12 m6">
+            <h3> 
+               <span class="pink-text text-darken-1 center">Bae Suzy
+                  <i class="fa-regular fa-heart black-text"></i>
+               </span>
+            </h3>
+            <p>Bae Suzy (배수지) is a South Korean actress and solo singer under Management SOOP. Suzy debuted as a member of MissA in March 2010 under JYP Entertainment. She debuted as a soloist on January 24, 2017. On April 7, 2019, Suzy signed with Management SOOP.</p>
+            <p class="center pink-text"> 
+               <span class="black-text"> Stage Name:</span> Suzy (수지)</p>
+            <p class="center pink-text"> 
+               <span class="black-text">Birth Name:</span> Bae Su Ji (배수지)</p>
+            <p class="center pink-text"> 
+               <span class="black-text"> Nationality:</span> Korean</p>
+            <p class="center pink-text"> 
+               <span class="black-text"> Birthday: </span> October 10, 1994</p>
+            <p class="center pink-text">
+                <span class="black-text"> Zodiac Sign:</span> Libra</p>
+            <p class="center pink-text"> 
+               <span class="black-text"> Height:</span> 168 cm (5’6″)</p>
+            <p class="center pink-text"> 
+               <span class="black-text">Weight:</span> 47 kg (103 lbs)</p>
+            <p class="center pink-text"> 
+               <span class="black-text"> Blood Type:</span> AB</p>
+            <ul>
+               <li class="center">
+                  <a href="#profile-modal" class="btn pink lighten-2 black-text modal-trigger">Read More</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </Section>
+
+  
+
+    <!-- Section: Gallery-->
+
+    <section class="section section-gallery">
+      <div class="container">
+         <div class="row">
+            <div class="col s12">
+               <div class="carousel carousel-slider center">
+                  <div class="carousel-item black white-text">
+                    <h2>Gallery</h2>
+                    <p class="white-text">Bae Suzy Instagram Post</p>
+                    <img src="images/background 2.gif" alt="">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta1.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta2.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta3.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta4.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta5.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/inata6.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta7.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta8.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta9.jpg" alt="" class="responsive-img">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="images/insta10.jpg" alt="" class="responsive-img">
+                  </div>
+                </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--Section: section suzy pets-->
+
+   <section class="section section-suzypets">
+      <div class="container">
+         <div class="row center">
+            <div class="col s12 m6">
+               <img src="images/damon.gif" height="200px" width="200px">
+            </div>
+            <div class="col s12 m6">
+               <img src="images/dezy.gif"  height="200px" width="200px"
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--Footer-->
+   <br><br>
+   <footer class="section pink white-text center">
+      <p>© 2022 Copyright Baezyph</p> 
+   </footer>
+
+   <!-- Modal : Profile Contents-->
+   <div id="profile-modal" class="modal">
+      <div class="modal-content">
+         <a href="#" class="modal-action modal-close"><i class="material-icons black-text right">close</i></a>
+         <h4 class="black-text">Suzy Facts</h4>
+         <p>– She is the first female celebrity who received popularity awards in K-pop, K-drama and film. The first celebrity with the triple awards is Rain.</p>
+         <p>– She was born in Gwangju, South Korea</p>
+         <p>– Suzy has an older sister, named Su-bin, and a younger brother, named Sang-moon.</p>
+         <p>– Education: She attended School of Performing Arts Seoul.</p>
+         <p>– Before debuting, she was an online shopping model.</p>
+         <p>– In 2009, she auditioned for Mnet Superstar K and made it through the preliminary round, but then she was eliminated.</p>
+         <p>– Anyway, she caught the attention of a scout from JYP Entertainment and soon became a trainee.</p>
+         <p>– After 1 year of training, in March 2010, she debuted with Miss A (which first promoted in China as a trio group consisting of Suzy, Fei and Jia).</p>
+         <p>– Later, when Min joined the band, Miss A made their Korean debut in July 2010 through JYP Entertainment, with the single “Bad Girl Good Girl”.</p>
+         <p>– Since October 2010, Suzy became a hot for different music shows and events: MBC Show! Music Core, Inkigayo, M! Countdown, M! Countdown Hello Japan, the 21st Seoul Music Awards, 26th Golden Disk Awards, etc.</p>
+         <p>– In January 2011, she made her acting debut in the high-school drama ‘Dream High’ which increased her popularity even more.</p>
+         <p>– In January 2016, Suzy released a digital single titled “Dream” with EXO‘s Baekhyun, which won the “Best Collaboration” award at the Mnet Asian Music Awards.</p>
+         <p>– She can speak Korean and Chinese.</p>
+         <p>– She doesn’t like to eat vegetables.</p>
+         <p>– Suzy’s shoe size is 250mm</p>
+         <p>– She admits that she did teeth laminated (just for her two front teeth), but she didn’t do any plastic surgery.</p>
+         <p>– She loves to read.</p>
+         <p>– She is a sleep-talker.</p>
+         <p>– Suzy is close to KARA’s Jiyoung and IU.</p>
+         <p>– She loves to go to karaoke.</p>
+         <p>– Suzy’s mother decorated her coffee shop with anything related to Miss A. The cafe is called “Soo Caffe”</p>
+         <p>– When she is very busy, she can do 60 interviews per day.</p>
+         <p>– Her favorite color is pink.</p>
+         <p>– She attended action school for her drama Vagabond.</p>
+         <p>– She appeared in a lot of CFs, she’s considered one of the ‘CF Queens’ in South Korea.</p>
+         <p>– In March 2015, it was revealed that she’s dating actor Lee Min Ho.</p>
+         <p>– Suzy and Lee Min Ho broke up in November 2017.</p>
+         <p>– In March 2018, it was confirmed that Suzy is dating actor Lee Dong Wook.</p>
+         <p>– On July 2, 2018, it was confirmed Suzy and Lee Dong Wook broke up.</p>
+         <p>– Suzy is ranked 58th on TC Candler “The 100 Most Beautiful Faces of 2018”.</p>
+         <p>– Suzy ranked 60th in the TC Candler “The 100 Most Beautiful Faces of 2019”.</p>
+         <p>– On March 31, 2019 her contract with JYP expired and she decided not to renew.</p>
+         <p>– On April 7, 2019 Suzy signed with Management SOOP.</p>
+         <p>– Suzy’s ideal type: Kang Dong Won and Lee Min Ki.</p>
+         <div class="modal-footer">
+         <a href="https://kprofiles.com/suzy-profile/" class="modal-action modal-source btn pink">
+            <i class="fa-brands fa-osi small"></i>
+         </a>
+      </div>
+   </div>
+
+  
+
+
+   <!-- Jquery CDN-->
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <!-- Compiled and minified Javascript-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+   <script>
+   $(document).ready(function(){
+      // Init Dropdown Menu
+    $(".dropdown-trigger").dropdown();
+      // Init Sidenav
+    $('.sidenav').sidenav({
+      edge: 'right'
+    }); 
+      // Init Carousel
+    $('.carousel').carousel();
+      // Init Carousel Slider
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+    });
+      // Init Modal
+    $('.modal').modal();
+    });
+   </script>
+
+</body>
+</html>

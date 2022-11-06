@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Local CSS-->
+   <link rel="stylesheet" href="style.css">
+   <!-- Compiled and minified CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <!-- Font Awesome-->
+   <script src="https://kit.fontawesome.com/a002a763e4.js" crossorigin="anonymous"></script>
+   <!-- Material Icons-->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">   
+
+
+   <title>Drama</title>
+</head>
+<body>
+
+   <!-- Navbar -->
+      <nav class="pink lighten-4">
+        <di class="container">
+           <a href="index.html" data-target="slide-out" class="brand-logo center">
+              <img src="images/logo2.png" height="60px">
+           </a>
+           <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right">
+              <i class="material-icons black-text">menu</i>
+           </a>
+           <ul class="right">
+              <li>
+                 <a href="#sueweeties-modal" class="btn pink accent-2 black-text waves-effect waves-light z-depth-2 modal-trigger">Sueweeties</a>
+              </li>
+           </ul>
+        </div>
+      </nav>
+   
+   <!-- Sidenav Structure-->
+      <div class="container">
+         <ul id="slide-out" class="sidenav">
+            <h4 class="black-text center">Bae Suzy</h4>
+            <div class="divider"></div>
+            <li>
+               <nav class="white lighten-2">
+                  <div class="nav-wrapper">
+                    <form>
+                     <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search">
+                           <i class="material-icons black-text">search</i>
+                        </label>
+                        <i class="material-icons">close</i>
+                     </div>
+                    </form>
+                  </div>
+               </nav>
+            </li>
+            <li>
+               <a href="index.html">Home
+                  <i class="fa-solid fa-heart black-text small"></i>
+               </a>
+            </li>
+            <li>
+               <a href="profile.html">Profile
+                  <i class="fa-solid fa-user black-text small"></i>
+               </a>
+            </li>
+            <li>
+               <a class="dropdown-trigger" href="#!" data-target="dropdown3">Discography
+                  <i class="fa-solid fa-icons black-text small"></i>
+                  <i class="material-icons right">arrow_drop_down</i>
+               </a>
+            </li>
+            <li class="active">
+               <a class="dropdown-trigger" href="#!" data-target="dropdown4">Filmography
+                  <i class="fa-solid fa-video black-text small"></i>
+                  <i class="material-icons right">arrow_drop_down</i>
+               </a>
+            </li>
+         <!--Sidenav Footer-->
+            <footer class="sidenav-footer">
+               <div class="row">
+                  <div class="row">
+                     <div class="col s3">
+                        <a href="https://twitter.com/Suzy?t=ECW7httXelm5fNT6xpyDKQ&s=09">
+                           <i class="fa-brands fa-twitter small"></i>
+                        </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="pink-text text-lighten-2" href="https://instagram.com/skuukzky?igshid=YmMyMTA2M2Y=">
+                           <i class="fa-brands fa-instagram small"></i>
+                       </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="red-text text-lighten-1" href="https://www.youtube.com/channel/UC9MujNQL4vQwX9kMpmQPIKw">
+                           <i class="fa-brands fa-youtube small"></i>
+                       </a>
+                     </div>
+                     <div class="col s3">
+                        <a class="cyan-text text-darken-3" href="https://www.instagram.com/management_soop/?igshid=YmMyMTA2M2Y%3D">
+                           <i class="fa-solid fa-id-card-clip small"></i>
+                       </a>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </ul>
+      </div>
+
+
+
+   <!-- Dropdown Structure -->
+
+   <ul id="dropdown1" class="dropdown-content">
+      <li>
+         <a href="missa.html">Miss A</a>
+      </li>
+      <li>
+         <a href="solo.html">Solo</a>
+      </li>
+   </ul>
+   <ul id="dropdown2" class="dropdown-content">
+      <li>
+         <a href="movie.html">Movie</a>
+      </li>
+      <li class="active">
+         <a href="drama.html">Drama</a>
+      </li>
+   </ul>
+   <ul id="dropdown3" class="dropdown-content">
+      <li>
+         <a href="missa.html">Miss A</a>
+      </li>
+      <li>
+         <a href="solo.html">Solo</a>
+      </li>
+   </ul>
+   <ul id="dropdown4" class="dropdown-content">
+      <li>
+         <a href="movie.html">Movie</a>
+      </li>
+      <li class="active">
+         <a href="drama.html">Drama</a>
+      </li>
+   </ul>
+
+    <!-- header: Dramas-->
+    <br>
+    <header class="dramas">
+      <div class="container">
+         <div class="row">
+            <div class="col s12">
+               <h1 class="pink-text center">
+                <span class="black-text">SUZY</span> DRAMAS
+               </h1>
+            </div>
+         </div>
+      </div>
+    </header>
+
+
+   <!--Section: Section dramas-->
+    <section class="section section-dramas">
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-2">2011</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA1.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><P>Dream High</P></h1>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA1.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><P>Go Hye-mi</P></span>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-1">2012</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>Big</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/SA2.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Jang Ma-ri</p></span>
+            </div>
+      </div>
+   </section>
+   
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-2">2013</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA3.jpeg" alt="">
+               <<span class="flow-text deep-orange-text text-lighten-1"><p>Gu Family Book</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA3.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Dam Yeo-wool</p></h1>
+            </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-1">2016</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA4.jpg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>Uncontrollably Fond </p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA4.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Noh-eul</p></h1>
+            </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-2">2017</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA5.jpg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>While You Were Sleeping</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA5.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Nam Hong-ju</p> </h1>
+            </div>
+      </div>
+   </section>
+      
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-1">2019</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA6.jpg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>Vagabond</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA6.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Go Hae-ri</p></h1>
+            </div>
+      </div>
+   </section>
+      
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-2">2020</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA7.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>Start-Up</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA7.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Seo Dal-mi</p></h1>
+            </div>
+      </div>
+   </section>
+      
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-1">2022</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA8.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>Anna</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA8.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Lee Anna</p></h1>
+            </div>
+      </div>
+   </section>
+      
+   <section>
+      <div class="container">
+         <div class="row">
+            <h2 class="red lighten-2">TBA</h2>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA9.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-lighten-1"><p>The Girl Downstairs</p></span>
+            </div>
+            <div class="col s12 m6">
+               <img class="i1" src="images/DA9.2.jpeg" alt="">
+               <span class="flow-text deep-orange-text text-accent-2"><p>Lee Doo-na</p></h1>
+            </div>
+      </div>
+   </section>
+      
+   <!--Images parallax-->
+   <div class="parallax-container">
+      <div class="parallax">
+         <img src="images/letswatch.png">
+      </div>
+    </div>
+
+   <!--Footer-->
+   <br><br>
+   <footer class="section pink white-text center">
+      <p>© 2022 Copyright Baezyph</p> 
+   </footer>
+
+
+
+
+   <!-- Jquery CDN-->
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <!-- Compiled and minified Javascript-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+   <script>
+   $(document).ready(function(){
+      // Init Dropdown Menu
+    $(".dropdown-trigger").dropdown();
+       // Init Sidenav
+    $('.sidenav').sidenav({
+      edge: 'right'
+    });
+      // Init Carousel
+    $('.carousel').carousel();
+      // Init Carousel Slider
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+    });
+      // Init Modal
+    $('.modal').modal();
+      // Init Tabs
+   $('.tabs').tabs({
+      duration: 1000
+   });
+      // Init Parallax
+   $('.parallax').parallax();
+    });
+   </script>
+
+</body>
+</html>
